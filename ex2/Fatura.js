@@ -22,4 +22,8 @@ export default class Fatura {
     obterValorTotal(percentual) {
         return this.quantia * this.preco;
     }
+
+    get valorTotal() {
+        return this.quantia * this.preco;
+    }
 }
