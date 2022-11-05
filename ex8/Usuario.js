@@ -1,5 +1,5 @@
 
-class Usuario {
+export default class Usuario {
     constructor(nome, email, senha) {
         this.nome = nome;
         this.email = email;
